@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<quiz>
+  <questions>
+    <question seconds="5">
+      <text>На сколько частей обычно режут пицу?</text>
+      <variants>
+        <variant right="true">8</variant>
+        <variant>10</variant>
+        <variant>7</variant>
+        <variant>9</variant>
+      </variants>
+    </question>
+
+    <question seconds="11">
+      <text>Сколько дней в неделе?</text>
+      <variants>
+        <variant>365</variant>
+        <variant>24</variant>
+        <variant>60</variant>
+        <variant right="true">7</variant>
+        <variant>6</variant>
+      </variants>
+    </question>
+
+    <question seconds="15">
+      <text>В каком году закончилась 2 мировая война?</text>
+      <variants>
+        <variant>1918</variant>
+        <variant>1380</variant>
+        <variant right="true">1945</variant>
+        <variant>1812</variant>
+        <variant>1999</variant>
+        <variant>2004</variant>
+      </variants>
+    </question>
+  </questions>
+</quiz>
