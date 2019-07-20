@@ -17,6 +17,7 @@ counter = Counter.new
 puts "Ответьте на вопросы: (время для ответа ограничено)"
 quiz.each do |episode|
   puts episode[:question]
+  
   answers_for_print =[]
   episode[:answers].shuffle.each { |string| answers_for_print << string }
   answers_for_print.each_with_index { |string, index| puts "#{index + 1}: #{string}" }
